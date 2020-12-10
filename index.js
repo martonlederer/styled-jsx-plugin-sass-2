@@ -52,7 +52,7 @@ function getSassImplementation() {
       require.resolve('node-sass')
       sassImplPkg = 'node-sass'
     } catch {
-      sassImplPkg = 'sass'
+      sassImplPkg = 'dart-sass'
     }
   }
 
